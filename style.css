@@ -145,3 +145,21 @@ body {
   background-color: orange;
   color: black;
 }
+.image-box {
+  background-color: #ff751a;
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;   /* makes image stay inside box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* keeps aspect ratio while filling box */
+  border-radius: 10px;
+}
+
